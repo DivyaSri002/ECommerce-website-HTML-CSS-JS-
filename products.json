@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Noise Colorfit Smart Watch Pro X",
+        "price": "₹3,599",
+        "image":"product1.jpg",
+        "detailsLink": "ProductDetails.html"
+    },
+    {
+        "name": "Sony Noise-Cancelling Wireless Headphones",
+        "price": "₹9,871",
+        "image": "prod2.jpg",
+        "detailsLink": "#"
+    },
+    {
+        "name": "Breville Compact Expresso Maker",
+        "price": "₹45,000",
+        "image": "prod3.webp",
+        "detailsLink": "#"
+    },
+    {
+        "name": "Outdoor Local Lion Ultra-Durable Backpack",
+        "price": "₹2,500",
+        "image": "prod4.jpg",
+        "detailsLink": "#"
+    },
+    {
+        "name": "Fulminare LED Desk Lamp with Qi Wireless charging",
+        "price": "₹399",
+        "image": "prod5.jpg",
+        "detailsLink": "#"
+    }
+]

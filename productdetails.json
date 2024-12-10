@@ -1,0 +1,13 @@
+{
+    "name": "Noise Colorfit Smart Watch Pro X",
+    "description": "The Smart Watch Pro X combines sleek design with cutting-edge technology. Track your fitness, monitor your health, and stay connected with notifications directly on your wrist. It features a 1.8-inch AMOLED display, 7-day battery life, and water resistance up to 50 meters. Perfect for the modern, on-the-go individual.",
+    "originalPrice": "₹8,999",
+    "currentPrice": "₹3,599",
+    "discount": "40% OFF",
+    "images": ["product1.jpg", "p2.jpg", "p1.jpg"],
+    "features": [
+        "Heart rate and SpO2 monitoring",
+        "GPS and step tracking",
+        "Customizable watch faces"
+    ]
+}

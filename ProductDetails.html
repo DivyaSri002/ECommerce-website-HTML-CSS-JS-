@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopiee | Product Details</title>
+    <link rel="stylesheet" href="styledetail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Shopiee</h1>
+            <div class="menu-icon" id="hamburger-icon">
+                <i class="fas fa-bars"></i> <!-- Using Font Awesome for hamburger icon -->
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Cart(<span id="cartCount">0</span>)</a></li> <!-- Cart with item count -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-details">
+            <h2 class="product-name">Loading...</h2> <!-- This will be dynamically set by JS -->
+            
+            <div class="image-carousel">
+                <img src="placeholder.jpg" alt="product image" class="product-img" /> <!-- Placeholder image, will be updated dynamically -->
+                <div class="thumbnail-container">
+                    <!-- Thumbnails will be dynamically added by JS -->
+                </div>
+            </div>
+
+            <div class="product-info">
+                <p class="description">Loading description...</p> <!-- Description will be set by JS -->
+                <p class="price">
+                    <span class="discount-badge">Loading...</span> 
+                    <span class="original-price">₹0</span> 
+                    <span class="current-price">₹0</span>
+                </p>
+                <button id="addToCart">Add to Cart</button>
+                
+                <ul class="features">
+                    <b>Key Features :</b>
+                    <!-- Key features will be added dynamically by JS -->
+                </ul>
+            </div>
+        </section>
+
+        <!-- Customer Reviews Section -->
+        <section class="reviews">
+            <h3>Customer Reviews</h3>
+            <ul id="reviewsList">
+                <!-- Reviews will be displayed here dynamically -->
+            </ul>
+
+            <!-- Write a Review Form -->
+            <h4>Write a Review</h4>
+            <form id="reviewForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required />
+                
+                <div class="star-rating">
+                    <span data-value="1" class="star">&#9733;</span>
+                    <span data-value="2" class="star">&#9733;</span>
+                    <span data-value="3" class="star">&#9733;</span>
+                    <span data-value="4" class="star">&#9733;</span>
+                    <span data-value="5" class="star">&#9733;</span>
+                </div>
+
+                <label for="reviewText">Review:</label>
+                <textarea id="reviewText" rows="4" placeholder="What did you like about this product?" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2024 Shopiee. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script src="Reviewscript.js"></script>
+    <script src="scriptheader.js"></script> <!-- Hamburger and navigation functionality -->
+    <script src="Detailscript.js"></script>
+</body>
+</html>

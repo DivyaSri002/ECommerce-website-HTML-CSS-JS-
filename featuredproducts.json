@@ -1,0 +1,20 @@
+[
+    {
+        "image": "product1.jpg",
+        "name": "Noise Colorfit Smart Watch Pro X",
+        "price": "₹3,599",
+        "detailsLink": "ProductDetails.html"
+    },
+    {
+        "image": "prod2.jpg",
+        "name": "Sony Noise-Cancelling Wireless Headphones",
+        "price": "₹9,871",
+        "detailsLink": "#"
+    },
+    {
+        "image": "prod3.webp",
+        "name": "Breville Compact Expresso Maker",
+        "price": "₹45,000",
+        "detailsLink": "#"
+    }
+]
